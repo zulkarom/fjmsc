@@ -5,7 +5,7 @@ namespace backend\modules\jeb\models;
 use Yii;
 
 /**
- * This is the model class for table "jeb_review_form".
+ * This is the model class for table "jmsc_review_form".
  *
  * @property int $id
  * @property string $form_quest
@@ -17,7 +17,7 @@ class ReviewForm extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'jeb_review_form';
+        return 'jmsc_review_form';
     }
 
     /**

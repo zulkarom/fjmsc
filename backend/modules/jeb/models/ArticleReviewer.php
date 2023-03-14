@@ -6,7 +6,7 @@ use Yii;
 use common\models\User;
 
 /**
- * This is the model class for table "jeb_article_reviewer".
+ * This is the model class for table "jmsc_article_reviewer".
  *
  * @property int $id
  * @property int $article_id
@@ -41,7 +41,7 @@ class ArticleReviewer extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'jeb_article_reviewer';
+        return 'jmsc_article_reviewer';
     }
 
     /**
@@ -111,15 +111,15 @@ class ArticleReviewer extends \yii\db\ActiveRecord
 	
 	public function setInex(){
 			$staff =  self::find()
-			->innerJoin('auth_assignment', 'auth_assignment.user_id = jeb_article_reviewer.user_id' )
-			->innerJoin('staff', 'staff.user_id = jeb_article_reviewer.user_id' )
-			->where(['jeb_article_reviewer.user_id' => $this->user_id, 'auth_assignment.item_name' => 'jeb-reviewer'])
+			->innerJoin('auth_assignment', 'auth_assignment.user_id = jmsc_article_reviewer.user_id' )
+			->innerJoin('staff', 'staff.user_id = jmsc_article_reviewer.user_id' )
+			->where(['jmsc_article_reviewer.user_id' => $this->user_id, 'auth_assignment.item_name' => 'jeb-reviewer'])
 			->all();
 			
 			$associate =  self::find()
-			->innerJoin('auth_assignment', 'auth_assignment.user_id = jeb_article_reviewer.user_id' )
-			->innerJoin('jeb_associate', 'jeb_associate.user_id = jeb_article_reviewer.user_id' )
-			->where(['jeb_article_reviewer.user_id' => $this->user_id, 'auth_assignment.item_name' => 'jeb-reviewer'])
+			->innerJoin('auth_assignment', 'auth_assignment.user_id = jmsc_article_reviewer.user_id' )
+			->innerJoin('jmsc_associate', 'jmsc_associate.user_id = jmsc_article_reviewer.user_id' )
+			->where(['jmsc_article_reviewer.user_id' => $this->user_id, 'auth_assignment.item_name' => 'jeb-reviewer'])
 			->all();
 			if($staff){
 				$this->inex = 1;
@@ -186,9 +186,9 @@ class ArticleReviewer extends \yii\db\ActiveRecord
 	public function isAssociateAdminCreationNeverLogin(){
 		
 		$ada = self::find()
-		->innerJoin('user', 'user.id = jeb_article_reviewer.user_id')
-		->innerJoin('jeb_associate', 'user.id = jeb_associate.user_id')
-		->where(['user.id' => $this->user_id ,'user.last_login_at' => 0, 'jeb_associate.admin_creation' => 1])
+		->innerJoin('user', 'user.id = jmsc_article_reviewer.user_id')
+		->innerJoin('jmsc_associate', 'user.id = jmsc_associate.user_id')
+		->where(['user.id' => $this->user_id ,'user.last_login_at' => 0, 'jmsc_associate.admin_creation' => 1])
 		->one();
 		
 		if($ada){

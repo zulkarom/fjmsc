@@ -17,7 +17,7 @@ class ArticleScope extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'jeb_article_scope';
+        return 'jmsc_article_scope';
     }
 
     /**

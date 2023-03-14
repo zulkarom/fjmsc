@@ -7,7 +7,7 @@ use common\models\User;
 use common\models\Country;
 
 /**
- * This is the model class for table "jeb_associate".
+ * This is the model class for table "jmsc_associate".
  *
  * @property int $id
  * @property int $user_id
@@ -19,7 +19,7 @@ class Associate extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'jeb_associate';
+        return 'jmsc_associate';
     }
 
     /**

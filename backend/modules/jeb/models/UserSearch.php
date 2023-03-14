@@ -46,7 +46,7 @@ class UserSearch extends User
 		$query->joinWith(['staff', 'associate', 'authAssignments']);
 		
 		//->rightJoin('staff', 'staff.user_id = user.id')
-		//->rightJoin('jeb_associate', 'jeb_associate.user_id = user.id')
+		//->rightJoin('jmsc_associate', 'jmsc_associate.user_id = user.id')
 		//;
 
         // add conditions that should always apply here

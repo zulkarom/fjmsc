@@ -6,7 +6,7 @@ use Yii;
 use common\models\User;
 
 /**
- * This is the model class for table "jeb_user_scope".
+ * This is the model class for table "jmsc_user_scope".
  *
  * @property int $id
  * @property int $user_id
@@ -20,7 +20,7 @@ class UserScope extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'jeb_user_scope';
+        return 'jmsc_user_scope';
     }
 
     /**
@@ -59,19 +59,19 @@ class UserScope extends \yii\db\ActiveRecord
 		
 		if($inex == 1){
 			$reviewers =  self::find()
-			->innerJoin('auth_assignment', 'auth_assignment.user_id = jeb_user_scope.user_id' )
-			->innerJoin('staff', 'staff.user_id = jeb_user_scope.user_id' )
+			->innerJoin('auth_assignment', 'auth_assignment.user_id = jmsc_user_scope.user_id' )
+			->innerJoin('staff', 'staff.user_id = jmsc_user_scope.user_id' )
 			->where(['scope_id' => $scope, 'auth_assignment.item_name' => 'jeb-reviewer'])
 			->all();
 		}else if($inex == 2){
 			$reviewers =  self::find()
-			->innerJoin('auth_assignment', 'auth_assignment.user_id = jeb_user_scope.user_id' )
-			->innerJoin('jeb_associate', 'jeb_associate.user_id = jeb_user_scope.user_id' )
+			->innerJoin('auth_assignment', 'auth_assignment.user_id = jmsc_user_scope.user_id' )
+			->innerJoin('jmsc_associate', 'jmsc_associate.user_id = jmsc_user_scope.user_id' )
 			->where(['scope_id' => $scope, 'auth_assignment.item_name' => 'jeb-reviewer'])
 			->all();
 		}else{
 			$reviewers =  self::find()
-			->innerJoin('auth_assignment', 'auth_assignment.user_id = jeb_user_scope.user_id' )
+			->innerJoin('auth_assignment', 'auth_assignment.user_id = jmsc_user_scope.user_id' )
 			->where(['scope_id' => $scope, 'auth_assignment.item_name' => 'jeb-reviewer'])
 			->all();
 		}

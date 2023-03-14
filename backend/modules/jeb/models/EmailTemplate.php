@@ -6,7 +6,7 @@ use Yii;
 use common\models\AuthItem;
 
 /**
- * This is the model class for table "jeb_email_template".
+ * This is the model class for table "jmsc_email_template".
  *
  * @property int $id
  * @property string $on_enter_workflow
@@ -21,7 +21,7 @@ class EmailTemplate extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'jeb_email_template';
+        return 'jmsc_email_template';
     }
 
     /**

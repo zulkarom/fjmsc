@@ -76,8 +76,8 @@ class ReviewSearch extends Article
 		
 		if(Todo::can('jeb-reviewer')){
 			$query->orFilterWhere([
-			'jeb_article_reviewer.user_id' => Yii::$app->user->identity->id ,
-			'jeb_article_reviewer.status' => [0, 10, 20]
+			'jmsc_article_reviewer.user_id' => Yii::$app->user->identity->id ,
+			'jmsc_article_reviewer.status' => [0, 10, 20]
 			
         ]);
 		
@@ -89,18 +89,18 @@ class ReviewSearch extends Article
 		
 		if(Todo::can('jeb-managing-editor')){
 			$query->orFilterWhere([
-				'jeb_article.status' => 'ArticleWorkflow/ea-recommend'
+				'jmsc_article.status' => 'ArticleWorkflow/ea-recommend'
 			]);
 			$query->orFilterWhere([
-				'jeb_article.status' => 'ArticleWorkflow/da-review'
-			]);
-			
-			$query->orFilterWhere([
-				'jeb_article.status' => 'ArticleWorkflow/ba-pre-evaluate'
+				'jmsc_article.status' => 'ArticleWorkflow/da-review'
 			]);
 			
 			$query->orFilterWhere([
-				'jeb_article.status' => 'ArticleWorkflow/ca-assign-reviewer'
+				'jmsc_article.status' => 'ArticleWorkflow/ba-pre-evaluate'
+			]);
+			
+			$query->orFilterWhere([
+				'jmsc_article.status' => 'ArticleWorkflow/ca-assign-reviewer'
 			]);
 			
 			$access = true;
@@ -109,22 +109,22 @@ class ReviewSearch extends Article
 		
 		//for associate_editor
 		$query->orFilterWhere([
-			'jeb_article.status' => 'ArticleWorkflow/ca-assign-reviewer',
+			'jmsc_article.status' => 'ArticleWorkflow/ca-assign-reviewer',
 			'associate_editor' => Yii::$app->user->identity->id
         ]);
 		
 		if(Todo::can('jeb-managing-editor') or Todo::can('jeb-editor-in-chief')){
 			$query->orFilterWhere([
-				'jeb_article.status' => 'ArticleWorkflow/fa-evaluate'
+				'jmsc_article.status' => 'ArticleWorkflow/fa-evaluate'
 			]);
 			$query->orFilterWhere([
-				'jeb_article.status' => 'ArticleWorkflow/ga-response'
+				'jmsc_article.status' => 'ArticleWorkflow/ga-response'
 			]);
 			$query->orFilterWhere([
-				'jeb_article.status' => 'ArticleWorkflow/ha-correction'
+				'jmsc_article.status' => 'ArticleWorkflow/ha-correction'
 			]);
 			$query->orFilterWhere([
-				'jeb_article.status' => 'ArticleWorkflow/ia-post-evaluate'
+				'jmsc_article.status' => 'ArticleWorkflow/ia-post-evaluate'
 			]);
 			
 			
@@ -141,7 +141,7 @@ class ReviewSearch extends Article
 		
 		if(!$access){
 			$query->andFilterWhere([
-            'jeb_article.id' => 'abc',
+            'jmsc_article.id' => 'abc',
         ]);
 		}
 		

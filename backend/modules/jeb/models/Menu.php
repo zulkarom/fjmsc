@@ -74,7 +74,7 @@ class Menu
 		}else if(Todo::can('jeb-associate-editor')){
 			$count = Article::find()->where(['status' => ArticleStatus::reviewStatus(), 'associate_editor' => Yii::$app->user->identity->id])->count();
 		}else if(Todo::can('jeb-reviewer')){
-			$count = Article::find()->joinWith('articleReviewers')->where(['jeb_article.status' => ArticleStatus::reviewStatus(), 'jeb_article_reviewer.user_id' => Yii::$app->user->identity->id, 'jeb_article_reviewer.status' => [0, 10, 20]])->count();
+			$count = Article::find()->joinWith('articleReviewers')->where(['jmsc_article.status' => ArticleStatus::reviewStatus(), 'jmsc_article_reviewer.user_id' => Yii::$app->user->identity->id, 'jmsc_article_reviewer.status' => [0, 10, 20]])->count();
 		}
 		
 		return $count > 0 ? $count : '';

@@ -5,7 +5,7 @@ namespace backend\modules\jeb\models;
 use Yii;
 
 /**
- * This is the model class for table "jeb_setting".
+ * This is the model class for table "jmsc_setting".
  *
  * @property int $id
  * @property string $template_file
@@ -27,7 +27,7 @@ class Setting extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'jeb_setting';
+        return 'jmsc_setting';
     }
 
     /**

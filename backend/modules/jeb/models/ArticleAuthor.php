@@ -20,7 +20,7 @@ class ArticleAuthor extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'jeb_article_author';
+        return 'jmsc_article_author';
     }
 
     /**

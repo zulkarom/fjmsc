@@ -10,7 +10,7 @@ use backend\modules\jeb\models\EmailTemplate;
 use common\models\AuthAssignment;
 
 /**
- * This is the model class for table "jeb_article".
+ * This is the model class for table "jmsc_article".
  *
  * @property int $id
  * @property int $user_id
@@ -99,7 +99,7 @@ class Article extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'jeb_article';
+        return 'jmsc_article';
     }
 
     /**

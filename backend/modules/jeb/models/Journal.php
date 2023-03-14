@@ -5,7 +5,7 @@ namespace backend\modules\jeb\models;
 use Yii;
 
 /**
- * This is the model class for table "jeb_journal".
+ * This is the model class for table "jmsc_journal".
  *
  * @property int $id
  * @property int $volume
@@ -22,7 +22,7 @@ class Journal extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'jeb_journal';
+        return 'jmsc_journal';
     }
 
     /**

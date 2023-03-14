@@ -28,7 +28,7 @@ class ArticleOverwrite extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'jeb_article';
+        return 'jmsc_article';
     }
 
     /**

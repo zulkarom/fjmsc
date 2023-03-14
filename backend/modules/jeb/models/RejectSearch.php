@@ -77,7 +77,7 @@ class RejectSearch extends Article
 		
 		if(!$access){
 			$query->andFilterWhere([
-            'jeb_article.id' => 'abc',
+            'jmsc_article.id' => 'abc',
         ]);
 		}
 		

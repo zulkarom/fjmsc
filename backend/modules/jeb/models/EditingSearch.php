@@ -76,35 +76,35 @@ class EditingSearch extends Article
         ]);
 		
 		$query->orFilterWhere([
-			'jeb_article.status' => 'ArticleWorkflow/ja-galley-proof',
+			'jmsc_article.status' => 'ArticleWorkflow/ja-galley-proof',
 			'assistant_editor' => Yii::$app->user->identity->id
         ]);
 		
 		$query->orFilterWhere([
-			'jeb_article.status' => 'ArticleWorkflow/ka-finalise',
+			'jmsc_article.status' => 'ArticleWorkflow/ka-finalise',
 			'assistant_editor' => Yii::$app->user->identity->id
         ]);
 		//assign-proof-reader
 		
 		if(Todo::can('jeb-managing-editor') or Todo::can('jeb-editor-in-chief')){
 			$query->orFilterWhere([
-				'jeb_article.status' => 'ArticleWorkflow/ja-galley-proof'
+				'jmsc_article.status' => 'ArticleWorkflow/ja-galley-proof'
 			]);
 			
 			$query->orFilterWhere([
-				'jeb_article.status' => 'ArticleWorkflow/ka-assign-proof-reader'
+				'jmsc_article.status' => 'ArticleWorkflow/ka-assign-proof-reader'
 			]);
 			
 			$query->orFilterWhere([
-				'jeb_article.status' => 'ArticleWorkflow/la-proofread'
+				'jmsc_article.status' => 'ArticleWorkflow/la-proofread'
 			]);
 			
 			$query->orFilterWhere([
-				'jeb_article.status' => 'ArticleWorkflow/ma-finalise'
+				'jmsc_article.status' => 'ArticleWorkflow/ma-finalise'
 			]);
 			
 			$query->orFilterWhere([
-				'jeb_article.status' => 'ArticleWorkflow/oa-camera-ready'
+				'jmsc_article.status' => 'ArticleWorkflow/oa-camera-ready'
 			]);
 			
 		}
