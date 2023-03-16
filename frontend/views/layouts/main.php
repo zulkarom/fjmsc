@@ -56,14 +56,14 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@frontend/views/myas
 										<span class="top_bar_title">
 										
 			<?php 
-			if(Yii::$app->user->isGuest){
-				echo '<i class="fa fa-user"></i> <a href="' . Url::to(["/user/login"]) . '">LOGIN</a> OR <a href="'.Url::to(["/user/register"]) . '">REGISTER</a></span>';
-			}else{
+			// if(Yii::$app->user->isGuest){
+			// 	echo '<i class="fa fa-user"></i> <a href="' . Url::to(["/user/login"]) . '">LOGIN</a> OR <a href="'.Url::to(["/user/register"]) . '">REGISTER</a></span>';
+			// }else{
 				
-				echo Html::a('<i class="fa fa-user"></i> ' . Yii::$app->user->identity->fullname, ['user-setting/change-password'], ['data-method' => 'POST']);
+			// 	echo Html::a('<i class="fa fa-user"></i> ' . Yii::$app->user->identity->fullname, ['user-setting/change-password'], ['data-method' => 'POST']);
 				
-				echo Html::a(' | LOGOUT', ['site/logout'], ['data-method' => 'POST']);
-			}
+			// 	echo Html::a(' | LOGOUT', ['site/logout'], ['data-method' => 'POST']);
+			// }
 			
 			
 			?>
@@ -235,7 +235,7 @@ Copyright <?=date('Y')?> Universiti Malaysia Kelantan
 							<div class="cr">
 							
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made by Skyhint Design | Template by <a style="color:#a5a5a5" href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear()) </script> JOURNAL OF MANAGEMENT AND SUPPLY CHAIN | All rights reserved 
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 
 

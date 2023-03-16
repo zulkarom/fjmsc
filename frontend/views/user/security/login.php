@@ -55,8 +55,9 @@ $fieldOptions2 = [
 			</div>
 			
 			<div><h4>Current Issue</h4>
-			
+	<?php if($journal){?>		
 <p><?=$journal->journalName?><br /><?=$journal->journal_name?></p>
+<?php } ?>
 </div>
 					
 					

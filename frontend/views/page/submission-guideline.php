@@ -18,8 +18,11 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@frontend/views/myas
 			
 			<div class="col-lg-12">
 			<br />
-			
-<p>Please <a href="../user/login">log in</a> to submit a manuscript, or <a href="../user/register">register</a> if you have not an account with the JMSC journal.</p>
+<?php 
+
+/* <p>Please <a href="../user/login">log in</a> to submit a manuscript, or <a href="../user/register">register</a> if you have not an account with the JMSC journal.</p> */
+?>			
+
 
 
 <p>The Journal welcomes articles, research communications, and book reviews that focus on the dynamics of entrepreneurship and business.</p>
