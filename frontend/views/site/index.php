@@ -38,7 +38,7 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@frontend/views/myas
 			
 		
 			
-			 <?= Html::submitButton('<i class="fa fa-search"></i> Search', ['class' => 'btn btn-primary', 'style' => 'height:40px']) ?>  <?= Html::a('Submit a paper', ['submission/create'], ['class' => 'btn btn-danger', 'style' => 'height:40px']) ?>
+			 <?= Html::submitButton('<i class="fa fa-search"></i> Search', ['class' => 'btn btn-primary', 'style' => 'height:40px']) ?>  <?= Html::a('Submit a paper', ['/page/submission-guideline'], ['class' => 'btn btn-danger', 'style' => 'height:40px']) ?>
 			
 			
 			</div>
