@@ -26,6 +26,15 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@frontend/views/myas
 	<link rel="shortcut icon" href="https://fkp-portal.umk.edu.my/journal/jmsc/images/favicon.png">
 
     <title><?= Html::encode($this->title) ?></title>
+
+	<meta property="og:site_name" content="">
+<meta property="og:title" content="JMSC - Journal of Management and Supply Chain">
+<meta property="og:description" content="JMSC - Journal of Management and Supply Chain">
+<meta property="og:url" content="https://fkp-portal.umk.edu.my/journal/jmsc/">
+<meta property="og:type" content="homepage">
+<meta property="og:image" content="https://fkp-portal.umk.edu.my/journal/jmsc/images/cover-page.png">
+<meta name="twitter:title" content="MSC - Journal of Management and Supply Chain">
+<meta name="twitter:description" content="MSC - Journal of Management and Supply Chain">
     <?php $this->head() ?>
 
 	
