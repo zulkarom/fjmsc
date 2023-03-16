@@ -18,7 +18,7 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@frontend/views/myas
 			
 			<div class="col-lg-12">
 			<br />
-			<p>JEB follows the&nbsp;<a href="https://publicationethics.org/">Committee on Publication Ethics</a>&nbsp;&nbsp;(COPE)&#39;s Code of Conduct for the following policy domains:</p>
+			<p>JMSC follows the&nbsp;<a href="https://publicationethics.org/">Committee on Publication Ethics</a>&nbsp;&nbsp;(COPE)&#39;s Code of Conduct for the following policy domains:</p>
 
 <p>&nbsp;</p>
 
@@ -38,7 +38,7 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@frontend/views/myas
 
 <ol style="list-style-type:lower-alpha;margin-left:100px">
 	<li>Our editors make decisions on academic merit and take full responsibility for their decisions.</li>
-	<li>Since our journal is not published for commercial purposes (i.e. JEB does not collect any fees from any parties), separating decision-making from commercial considerations is a non-issue.</li>
+	<li>Since our journal is not published for commercial purposes (i.e. JMSC does not collect any fees from any parties), separating decision-making from commercial considerations is a non-issue.</li>
 	<li>Any articles submitted by academician from Universiti Malaysia Kelantan undergo the same rigorous quality control by sending the articles to two external reviewers.</li>
 </ol>
 
@@ -46,7 +46,7 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@frontend/views/myas
 
 <ol style="list-style-type:lower-alpha;margin-left:100px">
 	<li>Each editor has an appointment letter setting out the terms and conditions of their appointment with our journal.</li>
-	<li>JEB&rsquo;s publisher does not have any role in decisions on content for commercial or political reasons. The publisher also does not dismiss an editor because of any journal content unless there was gross editorial misconduct, or an independent investigation has concluded that the editor&rsquo;s decision to publish was against the journal&rsquo;s scholarly mission.</li>
+	<li>JMSC&rsquo;s publisher does not have any role in decisions on content for commercial or political reasons. The publisher also does not dismiss an editor because of any journal content unless there was gross editorial misconduct, or an independent investigation has concluded that the editor&rsquo;s decision to publish was against the journal&rsquo;s scholarly mission.</li>
 </ol>
 
 <p style="margin-left:36.0pt;"><em>2.3 Journal metrics and decision-making </em></p>
@@ -127,7 +127,7 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@frontend/views/myas
 <p style="margin-left:36.0pt;"><em>6.1 Decision whether to review </em></p>
 
 <ol style="list-style-type:lower-alpha;margin-left:100px">
-	<li>The Managing Editor or Associate Editor checks the similarities index (using Turnitin), the scope of the articles and how it fits with JEB&rsquo;s scope, and sufficient merit for the articles to send to reviewers for further review.</li>
+	<li>The Managing Editor or Associate Editor checks the similarities index (using Turnitin), the scope of the articles and how it fits with JMSC&rsquo;s scope, and sufficient merit for the articles to send to reviewers for further review.</li>
 	<li>If the article does not meet the minimum standard(more than 30% and/or the Scope does not fit the journal&rsquo;s and/or overall quality is poor), the article is desk rejected and returned to the author(s) with an explanation of the editors&rsquo; reasoning.&nbsp;</li>
 </ol>
 
@@ -168,13 +168,13 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@frontend/views/myas
 <p style="margin-left:36.0pt;"><em>7.1 Editorial and journal processes </em></p>
 
 <ol style="list-style-type:lower-alpha;margin-left:100px">
-	<li value="1"><strong>Initiall Assessment</strong>: The Managing Editor or an Associate Editor will first evaluate similarities (using Turnitin), the scope of the manuscript (how it fits with JEB&rsquo;s scope), and lastly, whether the manuscript has sufficient merit to send to reviewers for further review. If the manuscript does not reach the minimum standard, the article will be desk rejected and returned to the author(s) with an explanation of the editors&rsquo; reasoning.&nbsp;</li>
+	<li value="1"><strong>Initiall Assessment</strong>: The Managing Editor or an Associate Editor will first evaluate similarities (using Turnitin), the scope of the manuscript (how it fits with JMSC&rsquo;s scope), and lastly, whether the manuscript has sufficient merit to send to reviewers for further review. If the manuscript does not reach the minimum standard, the article will be desk rejected and returned to the author(s) with an explanation of the editors&rsquo; reasoning.&nbsp;</li>
 
 	<li value="2"><strong>Peer Review Details: </strong>If a manuscript passes the initial screening, the Managing Editor and/or Associate Editor will recruit reviewers to assess the merits of the manuscript. Upon the receipt of the report from the reviews, the Managing Editor and/or Associate Editor will provide a recommendation to the Editor-in-Chief who will finally decide whether the article should be accepted, whether requiring minor corrections, major correction or rejection.</li>
 	<li value="3"><strong>Notification</strong>: E-mail notification will be sent to the corresponding author, announcing that a decision has been made. The possible decisions are Reject, Major Revision, Minor Revision, and Accept.</li>
 	<li value="4"><strong>Revisions</strong>: Revisions, if suggested, have to be undertaken within a given time. A manuscript that is not revised within one year may be reclassified as &quot;withdrawn,&quot; and revisions submitted after the one-year mark may be treated as new submissions. All revisions should be accompanied by a separate &quot;Response to Reviewers&quot; document, which provides a summary of the major changes made to the document and a point-by-point description of whether and how the issues raised by the reviewers and editors have been addressed.</li>
-	<li value="5"><strong>Rejection</strong>: As a rule, JEB does not invite resubmissions of rejected manuscripts. If a submitted manuscript is based on an article previously rejected by the Journal, it is the responsibility of the author(s) to reveal this and to state clearly why resubmission is justified. Failure to do this may be grounds for rejection.</li>
-	<li value="6"><strong>After Acceptance - Final Submission</strong>: If the article is conditionally accepted for publication, the corresponding author(s) will be requested to submit the final version of the manuscript using the JEB Template.</li>
+	<li value="5"><strong>Rejection</strong>: As a rule, JMSC does not invite resubmissions of rejected manuscripts. If a submitted manuscript is based on an article previously rejected by the Journal, it is the responsibility of the author(s) to reveal this and to state clearly why resubmission is justified. Failure to do this may be grounds for rejection.</li>
+	<li value="6"><strong>After Acceptance - Final Submission</strong>: If the article is conditionally accepted for publication, the corresponding author(s) will be requested to submit the final version of the manuscript using the JMSC Template.</li>
 </ol>
 
 <p style="margin-left:36.0pt;"><em>7.2 Editorial conflicts of interest </em></p>

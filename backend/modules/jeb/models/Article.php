@@ -465,7 +465,7 @@ class Article extends \yii\db\ActiveRecord
 			$issue = '0' . $issue;
 		}
 		
-		return 'http://jeb.umk.edu.my/JEB.'.$volume . $issue .'.'. $this->publish_number;
+		return 'http://fkp-portal.umk.edu.my/journal/jmsc/.'.$volume . $issue .'.'. $this->publish_number;
 	}
 	
 	
@@ -753,7 +753,7 @@ class Article extends \yii\db\ActiveRecord
 		$subject = str_replace('{manuscript-number}', $this->manuscriptNo(), $subject);
 		
 		return Yii::$app->mailqueue->compose()
-		 ->setFrom(['fkp.umk.email@gmail.com' => 'JEB JOURNAL'])
+		 ->setFrom(['fkp.umk.email@gmail.com' => 'JMSC JOURNAL'])
 		 ->setReplyTo('jeb.fkp@umk.edu.my')
 		 ->setTo([$user->email => $user->fullname])
 		 ->setTextBody($content)

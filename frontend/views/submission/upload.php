@@ -78,7 +78,7 @@ table.detail-view th {
 	</div>
 	
 	<div class="form-group">
-	<label><input type="checkbox" class="verifychk" id="check3" /> The text adheres to the stylistic and bibliographic requirements for JEB.</label>
+	<label><input type="checkbox" class="verifychk" id="check3" /> The text adheres to the stylistic and bibliographic requirements for JMSC.</label>
 	</div>
 	
 	<div class="form-group">

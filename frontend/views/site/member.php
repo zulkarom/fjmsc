@@ -14,14 +14,14 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@frontend/views/myas
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<h2 class="section_title text-center">WELCOME TO JEB</h2>
+					<h2 class="section_title text-center">WELCOME TO JMSC</h2>
 				</div>
 
 			</div>
 			<br />
 			<div class="row">
 			
-			<div class="col-lg-12"><p>The Journal of Entrepreneurship and Business (eISSN : 2289-8298) or JEB is a double-blind, peer-reviewed and open-access journal, published in June and December annually. JEB addresses the fundamental issues of entrepreneurship and business and publishes original quantitative or qualitative articles on all aspects of entrepreneurship and business in local and international contexts. The primary audiences for this journal are scholars, academicians, policy makers and practitioners whose interest is in entrepreneurship and business discourses, practices and activities.</p></div>
+			<div class="col-lg-12"><p>The Journal of Management & Supply Chain is a peer-reviewed academic journal that publishes high-quality research articles related to the fields of management and supply chain. The journal focuses on both theoretical and practical research, with an emphasis on empirical studies that contribute to the understanding of management and supply chain issues. The scope of the journal includes topics such as supply chain management, operations management, logistics, transportation, procurement, inventory management, sustainability, and innovation in management and supply chain practices. The journal welcomes original research articles, literature reviews, case studies, and conceptual papers that offer new insights and perspectives on management and supply chain issues. The target audience of the journal includes academics, researchers, practitioners, and students who are interested in advancing the knowledge and practice of management and supply chain.</p></div>
 				
 				<br />
 				

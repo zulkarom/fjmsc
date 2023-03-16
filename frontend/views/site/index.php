@@ -6,7 +6,7 @@ use yii\widgets\ActiveForm;
 
 
 
-$this->title= 'JEB :: JOURNAL OF ENTREPRENEURSHIP AND BUSINESS';
+$this->title= 'JMSC :: JOURNAL OF MANAGEMENT AND SUPPLY CHAIN';
 
 $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@frontend/views/myasset');
 ?>
@@ -60,26 +60,28 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@frontend/views/myas
 			<div class="form-group">
 <img src="<?=$directoryAsset?>/img/cover-page.jpg" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" />
 			</div>
-			
+		<?php
+if ($journal) {
+    ?>
 			<div align="center"><h4>Current Issue</h4>
 			
 <p><?=$journal->journalName?> <?=$journal->journal_name?></p>
 </div>
-			
+	<?php } ?>		
 			</div>
 			
 			<div class="col-lg-5">
 			<h3>AIM OF JOURNAL</h3>
 			
-			<p style="text-align:justify">The Journal of Entrepreneurship and Business (eISSN : 2289-8298) or JEB is a double-blind, peer-reviewed and open-access journal, published in June and December annually. JEB addresses the fundamental issues of entrepreneurship and business and publishes original quantitative or qualitative articles on all aspects of entrepreneurship and business in local and international contexts. The primary audiences for this journal are scholars, academicians, policy makers and practitioners whose interest is in entrepreneurship and business discourses, practices and activities. </p></div>
+			<p style="text-align:justify">The Journal of Management & Supply Chain is a peer-reviewed academic journal that publishes high-quality research articles related to the fields of management and supply chain. The journal focuses on both theoretical and practical research, with an emphasis on empirical studies that contribute to the understanding of management and supply chain issues. The scope of the journal includes topics such as supply chain management, operations management, logistics, transportation, procurement, inventory management, sustainability, and innovation in management and supply chain practices. The journal welcomes original research articles, literature reviews, case studies, and conceptual papers that offer new insights and perspectives on management and supply chain issues. The target audience of the journal includes academics, researchers, practitioners, and students who are interested in advancing the knowledge and practice of management and supply chain.</p></div>
 				
 				<div class="col-lg-4">
+					<br />
 				<h3>SCOPE</h3>
-				<p>JEB welcomes and publishes research in the field of :
+				<p>JMSC welcomes and publishes research in the field of :
 <ul>
-<li>Retailing and commerce;</li>
+<li>Business Management;</li>
 <li>Logistics and distributive trade;</li>
-<li>Tourism and hospitality;</li>
 <li>Finance and accounting;</li>
 <li>Business sustainability;</li>
 <li>Entrepreneurship & economic growth;</li>
@@ -90,7 +92,7 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@frontend/views/myas
 
 </p>
 
-	<p>This journal is abstracted and indexed by EBSCOhost, Ulrichsweb™,  MCC, MyCite and Google Scholar .</p>				
+	<p>This journal is abstracted and indexed by Google Scholar .</p>				
 				</div>
 			
 			</div>
@@ -98,7 +100,7 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@frontend/views/myas
 	
 <div class="row">
 <div class="col-md-9">
-<h4>INDEXING</h4>
+<h4></h4>
 
 <a href="https://www.asean-cites.org/" target="_blank"><img src="<?=$directoryAsset?>/img/aci-logo-v4.png" width="180" /></a> 
 

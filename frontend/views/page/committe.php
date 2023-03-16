@@ -34,7 +34,7 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@frontend/views/myas
 <h3>Managing Editor</h3>
 
 <ul>
-	<li>Abdullah Al Mamun (<a href="https://www.scopus.com/authid/detail.uri?authorId=36782596500">Scopus</a>; <a href="https://scholar.google.com/citations?user=68fUAUEAAAAJ&amp;hl=en">Google Scholar</a>), Universiti Malaysia Kelantan, Malaysia.</li>
+	<li>Razman Hafifi Bin Redzuan, Universiti Malaysia Kelantan, Malaysia.</li>
 </ul>
 <p>&nbsp;</p>
 <h3>Associate Editors</h3>

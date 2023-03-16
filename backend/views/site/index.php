@@ -2,7 +2,7 @@
 
 use yii\helpers\Url;
 
-$this->title = 'JEB Current Issue';
+$this->title = 'Current Issue';
 ?>
 			
 			
@@ -21,7 +21,7 @@ if($journal){
 </div>
 
 <div align="center">
-<a href="<?=Url::to(['../page/archive'])?>" class="btn btn-primary" target="_blank">JEB PREVIOUS ISSUES</a>
+<a href="<?=Url::to(['../page/archive'])?>" class="btn btn-primary" target="_blank">PREVIOUS ISSUES</a>
 </div>
 
 

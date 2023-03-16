@@ -46,7 +46,7 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@frontend/views/myas
 					<div class="row">
 						<div class="col">
 							<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
-								<div class="top_bar_phone"><span class="top_bar_title">Journal of Entrepreneurship and Business (e-ISSN:2289-8298)</div>
+								<div class="top_bar_phone"><span class="top_bar_title">Journal of Management and Supply Chain</div>
 								<div class="top_bar_right ml-auto">
 								
 								
@@ -83,8 +83,19 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@frontend/views/myas
 		</div>
 
 		<!-- Header Content -->
+
+		<picture>
+   <source
+      media="(min-width: 650px)"
+      srcset="<?=$directoryAsset?>/img/top-banner.png" width="100%">
+   <source
+      media="(max-width: 768px)"
+      srcset="<?=$directoryAsset?>/img/top-banner-mobile.png" width="100%">
+   <img src="<?=$directoryAsset?>/img/top-banner.png"
+    width="100%">
+</picture>
 		
-		<img src="<?=$directoryAsset?>/img/top-banner.png" width="100%" />
+		
 	
 		
 		<div class="header_container">
@@ -94,7 +105,7 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@frontend/views/myas
 						<div class="header_content d-flex flex-row align-items-center justify-content-start">
 							<div class="logo_container mr-auto">
 								<a href="<?=Url::to(['site/index'])?>">
-							<div class="logo_text" style="color:#000000">J E B</div></a>
+							<div class="logo_text" style="color:#000000">JMSC</div></a>
 								
 							</div>
 				<?php 

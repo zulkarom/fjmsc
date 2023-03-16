@@ -25,7 +25,7 @@ $journal = Journal::findOne(['status' => 20]);
  * @var dektrium\user\Module $module
  */
 
-$this->title = 'JEB - LOGIN PAGE';
+$this->title = 'LOGIN PAGE';
 $this->params['breadcrumbs'][] = $this->title;
 
 
@@ -65,7 +65,7 @@ $fieldOptions2 = [
 						<h2 class="section_title">LOGIN PAGE </h2>
 														<div class="section">
 										
-														<p>Please <a href="../user/login">log in</a> to submit a manuscript, or <a href="../user/register">register</a> if you have not an account with the JEB journal.</p>
+														<p>Please <a href="../user/login">log in</a> to submit a manuscript, or <a href="../user/register">register</a> if you have not an account with the JMSC journal.</p>
 														<br />
 														
 														

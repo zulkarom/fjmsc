@@ -9,7 +9,7 @@ class Menu
 {
 	public static function committee(){
 		return [
-		'label' => 'JEB Menu',
+		'label' => 'Menu',
 		'icon' => 'list-ul',
 		'url' => '#',
 		'items' => [
@@ -107,7 +107,7 @@ class Menu
 	
 	public static function adminJeb(){
 		$admin_jeb = [
-                        'label' => 'JEB Admin',
+                        'label' => 'Admin',
 						'visible' => Todo::can('jeb-administrator'),
                         'icon' => 'list-ul',
                         'url' => '#',

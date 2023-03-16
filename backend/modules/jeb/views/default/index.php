@@ -1,5 +1,5 @@
 <?php 
-$this->title = 'JEB Current Issue';
+$this->title = 'Current Issue';
 ?>
 			
 			
@@ -18,7 +18,7 @@ if($journal){
 </div>
 
 <div align="center">
-<a href="" class="btn btn-primary" target="_blank">JEB PREVIOUS ISSUES</a>
+<a href="" class="btn btn-primary" target="_blank">PREVIOUS ISSUES</a>
 </div>
 
 

@@ -22,7 +22,7 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@frontend/views/myas
 <h3>1. Ethical Guideline for Authors</h3>
 <br />
 
-<p>JEB &nbsp;follows the&nbsp;<a href="https://publicationethics.org/">Committee on Publication Ethics</a> (COPE)&#39;s Code of Conduct for <a href="https://publicationethics.org/files/International%20standards_authors_for%20website_11_Nov_2011.pdf">International Standard for Authors</a></p>
+<p>JMSC &nbsp;follows the&nbsp;<a href="https://publicationethics.org/">Committee on Publication Ethics</a> (COPE)&#39;s Code of Conduct for <a href="https://publicationethics.org/files/International%20standards_authors_for%20website_11_Nov_2011.pdf">International Standard for Authors</a></p>
 
 <p>&nbsp;</p>
 <h4>In Summary</h4>
@@ -118,7 +118,7 @@ If plagiarism has been identified, and after all appeals are exhausted, the ad h
 <br />
 
 
-<p>Journal of Entrepreneurship and Business (JEB) follows the&nbsp;<a href="https://publicationethics.org/">Committee on Publication Ethics</a>&nbsp;(COPE)&#39;s Code of Conduct for <a href="https://publicationethics.org/files/Ethical_Guidelines_For_Peer_Reviewers_2.pdf">Ethical Guidelines for Peer </a><a href="https://publicationethics.org/files/Ethical_Guidelines_For_Peer_Reviewers_2.pdf">Reviewers</a>.</p>
+<p>Journal of Entrepreneurship and Business (JMSC) follows the&nbsp;<a href="https://publicationethics.org/">Committee on Publication Ethics</a>&nbsp;(COPE)&#39;s Code of Conduct for <a href="https://publicationethics.org/files/Ethical_Guidelines_For_Peer_Reviewers_2.pdf">Ethical Guidelines for Peer </a><a href="https://publicationethics.org/files/Ethical_Guidelines_For_Peer_Reviewers_2.pdf">Reviewers</a>.</p>
 
 <p>&nbsp;</p>
 
@@ -143,7 +143,7 @@ If plagiarism has been identified, and after all appeals are exhausted, the ad h
 
 
 
-<p>JEB follows the&nbsp;<a href="https://publicationethics.org/">Committee on Publication Ethics</a>&nbsp;(COPE)&#39;s Code of Conduct for <a href="https://publicationethics.org/files/Full%20set%20of%20English%20flowcharts_9Nov2016.pdf">Allegations of Misconduct; Complaint and Appeals; Conflict and Interest; Data and reproducibility; Intellectual property; and Post-publication discussions and corrections.</a></p>
+<p>JMSC follows the&nbsp;<a href="https://publicationethics.org/">Committee on Publication Ethics</a>&nbsp;(COPE)&#39;s Code of Conduct for <a href="https://publicationethics.org/files/Full%20set%20of%20English%20flowcharts_9Nov2016.pdf">Allegations of Misconduct; Complaint and Appeals; Conflict and Interest; Data and reproducibility; Intellectual property; and Post-publication discussions and corrections.</a></p>
 
 			
 			</div>
