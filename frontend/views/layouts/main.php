@@ -134,8 +134,8 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@frontend/views/myas
 					
 						];
 						if($mm){
-							$arr['LOGIN'] = Url::to(['/user/login']);
-							$arr['REGISTER'] = Url::to(['/user/register']);
+							// $arr['LOGIN'] = Url::to(['/user/login']);
+							// $arr['REGISTER'] = Url::to(['/user/register']);
 						}
 					}else{
 						$submission = Stats::mySubmission();
